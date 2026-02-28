@@ -1,0 +1,14 @@
+1. Most Popular Research Deep Learning Framework
+
+2. An evolution of torch (another language written in Python)
+
+3. Write fast DL code in Python (able to run on a GPU/many GPUs/TPUs)
+
+(TPU - Tensor Processing Unit)
+
+4. Able to access many pre-built DL models (Torch Hub/torchvision.models)   [Transfer Learning]
+
+5. Whole Stack: Preprocess data, model data, deploy model in your application/cloud (All through one tool)
+
+6. Originally designed and used in-house by Facebook/Meta (now open-source and used by companies like Tesla, Microsoft, OpenAI)
+
