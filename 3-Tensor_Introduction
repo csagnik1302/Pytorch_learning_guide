@@ -1,0 +1,37 @@
+Tensors are numerical encoded representations of structured/unstructured input data
+
+Any kind of input, e it image, audio, etc can be converted into Tensors
+
+In a neural network, the input data that we feed needs to exist in numerical form, as a neural network does not understand whole images, or any audio recording, 
+
+But if we can numerically encode it and feed it to a Neural network, the Neural network can then process and learn specific types of features (patterns from that input)
+
+Tensors are those numerical representations, and thus tensors are the main type of data that we use when working with Neural Networks
+
+
+A Vector is a Tensor of Rank 1, since we only need 1 basis vector per component (x,y,z,.... components) to represent a vector space
+
+A Scalar is a Tensor of Rank 0
+
+A 3*3 Matrix is a Rank 2 Tensor
+
+A Rank 3 matric might look like a Cube (A 2D Array)
+
+https://www.youtube.com/watch?v=f5liqUk0ZTw -> Check from 10th minute
+
+Imagine a vector which is perpendicular to a plane. Now, a forrce might also act on that plane in particular directions
+
+Therefore, total possible vector orientations perpendicular to the plane (which in turn also  represents all possible orientations in which the plane itself can exist): 3 (along,x,y,z)
+Also, total possible Force vector orientations perpendicular to the plave: 3 (along,x,y,z)
+
+So total possible orientations of the system: 3*3=9
+
+Thus each of the 9 elements in the matix represents basis vectors along the direction of various combinations of plane orientation vector and the force vector 
+
+
+This matrix can thus be createwd using the Kronecker product of 2 Vectors 
+
+
+we can extend it to higher ranked vectors as well
+  
+
